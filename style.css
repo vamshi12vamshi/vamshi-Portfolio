@@ -1,0 +1,36 @@
+.first{
+    background-color: yellow;
+}
+.sec{
+    background-color: blue;
+margin-left: 24
+0px;
+}
+.third{
+    background-color: pink;
+}
+.first{
+    height: auto;
+    width: auto;
+   padding: 20px;
+   /* grid-template-rows: 1fr 1fr;
+   grid-template-columns: 200px 200px; */
+
+}
+.container{
+    display: flex;
+gap: 10px;
+flex-shrink: 0;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 200px 200px;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.container2 > p{
+    background-color: yellow;
+}
